@@ -11,7 +11,7 @@
 ## Datasets
 ### In-distribution Datasets
 * [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html)
-* [CIFAR100](https://www.cs.toronto.edu/~kriz/cifar.html)
+* [SVHN](http://ufldl.stanford.edu/housenumbers/)
 
 Our codes will download the two in-distribution datasets automatically.
 
