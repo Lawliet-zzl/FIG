@@ -44,7 +44,7 @@ parser.add_argument('--decay', default=5e-4, type=float, help='weight decay')
 parser.add_argument('--num-classes', default=10, type=int, help='the number of classes (default: 100)')
 parser.add_argument('--alg', default='Baseline', type=str, help='algorithm')
 
-parser.add_argument('--T', default=20, type=int, help='Sampling times (1~10 for training, 10001 for generating)')
+parser.add_argument('--T', default=1000, type=int, help='Sampling times (1~10 for training, 10001 for generating)')
 parser.add_argument('--K', default=0.01, type=float, help='number of selected OODs: 0 ~ 0.2')
 
 args = parser.parse_args()
