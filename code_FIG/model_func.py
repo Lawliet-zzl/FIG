@@ -81,7 +81,7 @@ class SamplerSGLD(nn.Module):
 		for idx in range(T):
 			samples, lr = self.update_samples(idx, net, samples, lr)
 			conf = self.get_conf_func(net, samples)
-			if conf > 0.5:
+			if conf > 0.9:
 				break
 		energy = self.get_energy_func(net, samples).item() / num_samples
 
